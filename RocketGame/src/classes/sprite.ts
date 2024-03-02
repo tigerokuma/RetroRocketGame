@@ -5,16 +5,16 @@ import PlayerResultEnum from './enums/player-result-enum';
 import SpriteTypeEnum from './enums/sprite-type-enum';
 import ImageEnum from './enums/image-enum';
 
-import car1 from '../images/car1.png';
-import car2 from '../images/car2.png';
-import car3 from '../images/car3.png';
-import car4 from '../images/car4.png';
+import car1 from '../images/meteor_1.png';
+import car2 from '../images/planet1.png';
+import car3 from '../images/planet2.png';
+import car4 from '../images/UFO_1.png';
 import lorryFront from '../images/lorry-front.png';
 import lorryBack from '../images/lorry-back.png';
-import turtle1 from '../images/turtle1.png';
-import logLeft from '../images/log-left.png';
-import logCentre from '../images/log-centre.png';
-import logRight from '../images/log-right.png';
+import turtle1 from '../images/star_1.png';
+import logLeft from '../images/alian1.png';
+import logCentre from '../images/alian2.png';
+import logRight from '../images/alian3.png';
 import playerHome from '../images/player-home.png';
 
 export default class Sprite implements ISprite {

@@ -3,7 +3,7 @@ import { range } from 'lodash';
 
 import IGameStatusBottomProps from './interfaces/game-status-bottom-props';
 
-import lives from '../../images/lives.png';
+import lives from '../../images/rocket-up.png';
 
 import './styles/game-status-bottom.scss';
 
