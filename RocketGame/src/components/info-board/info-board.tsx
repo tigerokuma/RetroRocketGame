@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 import IInfoBoardProps from './interfaces/info-board-props';
 
-import playerLeft from '../../images/player-left.png';
-import playerRight from '../../images/player-right.png';
+import playerLeft from '../../images/rocket-up.png';
+import playerRight from '../../images/rocket-up.png';
 
 import './styles/info-board.scss';
 	
@@ -16,7 +16,7 @@ const InfoBoard: FC<IInfoBoardProps> = (props: IInfoBoardProps) => {
 	return <div className="info-board" style={ styleInfoBoard() }>
 		<div className="info-board-header">
 			<img src={ playerRight } alt="player" />
-			<span className="header-text">Frogger</span>
+			<span className="header-text">Go-Rocket</span>
 			<img src={playerLeft } alt="player" />
 		</div>
 
@@ -26,16 +26,18 @@ const InfoBoard: FC<IInfoBoardProps> = (props: IInfoBoardProps) => {
 		</div> }
 
 		<div className="info-board-instructions">
-			<ul>
-				<li>You control Frogger, guiding him in four directions with the arrow keys.</li>
-				<li>You must guide Frogger to each of the five empty slots at the top of the screen in order to advance to the next stage.</li>
-				<li>You start at the bottom of the screen beneath five lanes of traffic.</li>
-				<li>You must reach the sidewalk in the middle of the screen without getting hit by any vehicles.</li>
-				<li>You must not fall in the water on the way to one of the slots at the top. Ride the turtles and logs to the top, but don't get pulled off the side of the screen.</li>
-				<li>Beware of diving turtles. If Frogger is on them when they dive, he loses a life.</li>
-				<li>Avoid crocodile mouths, catch flies in the slots for bonus points, and bring the lady frog to your home for more bonus points.</li>
-			</ul>
-		</div>
+    <ul>
+        <li>Take control of your Rocket, navigating through the cosmos with precision and skill.</li>
+        <li>Your mission: guide your Rocket to dock safely at each International Space Station scattered across the stars to progress to the next level.</li>
+        <li>Begin your journey amongst a sea of stars, avoiding the perils of space debris and meteor showers.</li>
+        <li>Successfully navigate through asteroid belts that divide the vastness of space.</li>
+        <li>Watch out for the orbits of planets and moons, which can pull your Rocket off course with their gravitational force.</li>
+        <li>Utilize space boosts and fuel orbs to keep your Rocket powered and on track.</li>
+        <li>Collect space gems and rescue stranded astronauts to gain extra points.</li>
+        <li>Remember, space is unforgiving. A collision with debris or a misstep in navigation could spell the end of your mission.</li>
+        <li>Prepare for liftoff, and let's Go Rocket!</li>
+    </ul>
+</div>
 
 		<div className="button-area">
 			<button type="button" onClick={ props.startGame }>Play Game</button>
