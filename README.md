@@ -3,8 +3,8 @@
 ## Description
 Go-Rocket! is an exciting, fast-paced game developed with TypeScript and CSS, inspired by the classic Frogger game but set in a theme of chaos and adventure. Players navigate a rocket through treacherous terrain, dodging obstacles and collecting power-ups, all while racing against time to reach the safe haven. The game combines retro gameplay mechanics with modern graphics and chaotic twists.
 
-<img width="1292/2" alt="Screenshot_2024-03-02_at_18 01 14" src="https://github.com/tigerokuma/RetroRocketGame/assets/112856403/a56d806d-5b35-48c1-911c-be894295c3b9">
-<img width="1206/2" alt="Screenshot_2024-03-02_at_18 01 19" src="https://github.com/tigerokuma/RetroRocketGame/assets/112856403/ec8b8f79-0021-4ab9-b1ff-4dc234dc740e">
+<img width="490" alt="Screenshot_2024-03-02_at_18 01 14" src="https://github.com/tigerokuma/RetroRocketGame/assets/112856403/a56d806d-5b35-48c1-911c-be894295c3b9">
+<img width="490" alt="Screenshot_2024-03-02_at_18 01 19" src="https://github.com/tigerokuma/RetroRocketGame/assets/112856403/ec8b8f79-0021-4ab9-b1ff-4dc234dc740e">
 
 
 ## Installation
