@@ -19,3 +19,7 @@ Run `npm install` to install the necessary packages.
 4. Start the game:
 Run `npm start` to compile the TypeScript files and launch the game in your default web browser.
 
+## How to Play
+- **Objective**: Your mission is to navigate your rocket from one side of the chaos to the safe haven on the other side.
+- **Controls**: Use the arrow keys (← ↑ → ↓) to move your rocket across the screen.
+- **Avoid obstacles**: Keep an eye out for moving obstacles that can destroy your rocket on contact.
