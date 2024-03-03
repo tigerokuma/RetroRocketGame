@@ -1,11 +1,16 @@
-$info-board-background: white;
+// $info-board-background: radial-gradient(circle at 50% 50%, rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
+
 
 .info-board {
 	position: absolute;
-	background-color: $info-board-background;;
-	opacity: 0.9;
+	background: rgb(31, 26, 202); /* Adjusted path */
 	z-index: 10000;
-	margin-top: 18%;
+	border-radius: 30px;
+	width: 600px; 
+  height: 600px; 
+	color: rgb(255, 213, 0);
+
+	
 
 	.game-over-area {
 		margin: 2em;
@@ -36,7 +41,7 @@ $info-board-background: white;
 	}
 
 	.info-board-instructions {
-		margin: 0.5em;
+		margin-top: 50px;
 		font-size: 0.8em;
 
 		li {

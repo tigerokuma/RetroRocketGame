@@ -1,8 +1,12 @@
 @import '../../default-styles/colours.scss';
 
 .game-status-bottom {
-	width: 100%;
+	transform: translateY(100%);
+	width: 600px;
+	height: 0px;
 	position: absolute;
+	align-items: center;
+	bottom: 0;
 	color: $info-bar-text-colour;
 	content: "";
 	display: table;

@@ -71,12 +71,15 @@ export default class Frogger extends React.Component<IFroggerProps, IFroggerStat
 		maxWidth: `${ this.state.containerHeight }px`,
 	})
 
-	private styleStatusBottom = () => ({
-		position: 'absolute' as 'absolute',
-		width: `100%`,
-		maxWidth: `${ this.state.containerHeight }px`,
-		top: `${ this.state.containerWidth / 100 * 94.375 }px`,
-	})
+	private styleStatusBottom = (): React.CSSProperties => ({
+		position: 'absolute',
+		width: '100%',
+		maxWidth: `${this.state.containerHeight}px`,
+		top: '670px',
+		left: '50%',
+		transform: 'translate(-50%, -50%)',
+		zIndex: 5, // Assuming you want this element to be above others
+	});
 
 	private styleGameButtons = () => ({
 		position: 'absolute' as 'absolute',

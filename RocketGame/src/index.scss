@@ -13,7 +13,9 @@ button {
 	font-family: 'Press Start 2P', cursive;
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
-	background-color: #008CBA;
+	background-color: #bd0909;
+	border-radius: 20px;
+	margin-top: 15px;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -26,6 +28,6 @@ button {
 
 button:hover {
 	background-color: white;
-	color: #008CBA;
+	color: #bd0909;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

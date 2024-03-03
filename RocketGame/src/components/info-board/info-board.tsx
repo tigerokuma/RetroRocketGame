@@ -8,12 +8,8 @@ import playerRight from '../../images/rocket-up.png';
 import './styles/info-board.scss';
 	
 const InfoBoard: FC<IInfoBoardProps> = (props: IInfoBoardProps) => {
-	const styleInfoBoard = () => ({
-		width: `100%`,
-		maxWidth: `${ props.containerHeight }px`,
-	})
 
-	return <div className="info-board" style={ styleInfoBoard() }>
+	return <div className="info-board">
 		<div className="info-board-header">
 			<img src={ playerRight } alt="player" />
 			<span className="header-text">Go-Rocket</span>
@@ -32,10 +28,7 @@ const InfoBoard: FC<IInfoBoardProps> = (props: IInfoBoardProps) => {
         <li>Begin your journey amongst a sea of stars, avoiding the perils of space debris and meteor showers.</li>
         <li>Successfully navigate through asteroid belts that divide the vastness of space.</li>
         <li>Watch out for the orbits of planets and moons, which can pull your Rocket off course with their gravitational force.</li>
-        <li>Utilize space boosts and fuel orbs to keep your Rocket powered and on track.</li>
-        <li>Collect space gems and rescue stranded astronauts to gain extra points.</li>
-        <li>Remember, space is unforgiving. A collision with debris or a misstep in navigation could spell the end of your mission.</li>
-        <li>Prepare for liftoff, and let's Go Rocket!</li>
+        <li>Prepare for liftoff, and let's !</li>
     </ul>
 </div>
 
